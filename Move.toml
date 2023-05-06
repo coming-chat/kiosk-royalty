@@ -1,0 +1,11 @@
+[package]
+name = "kiosk-royalty"
+version = "0.0.1"
+published-at = "0xea5ca29c4ff1c9466cfe4b464e896479f88c07cb0e529201f318da2c340716a4"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "ae1212baf8f0837e25926d941db3d26a61c1bea2" }
+Kiosk = { local = "./kiosk" }
+
+[addresses]
+royalty =  "0xea5ca29c4ff1c9466cfe4b464e896479f88c07cb0e529201f318da2c340716a4"
